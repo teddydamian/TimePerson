@@ -37,15 +37,16 @@ namespace TimePerson.Models
         public static List<TimePeople> GetPersons(int startYear, int endYear)
         {
 
-            string filepath = @"../TimePerson/wwwroot/personOfTheYear.csv";
+            //string filepath = @"../TimePerson/wwwroot/personOfTheYear.csv";
 
-            string[] allList = File.ReadAllLines(filepath);
+            string path = Environment.CurrentDirectory;
+            string newPath = Path.GetFullPath(Path.Combine(path, @"wwwroot/personOfTheYear.csv"));
+            string[] allList = System.IO.File.ReadAllLines(newPath);
 
 
             List<TimePeople> listOfTimePerson = new List<TimePeople>();
 
-            //Header of table
-            string[] header = allList[0].Split(',');
+            
 
             // Table Data
             for (int i = 1; i < allList.Length; i++)

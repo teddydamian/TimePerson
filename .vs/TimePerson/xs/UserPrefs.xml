@@ -1,28 +1,30 @@
 ﻿<Properties StartupConfiguration="{01CD8573-C7D8-4884-AD66-B5EFFEFF8D10}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="TimePerson/Controllers/HomeController.cs">
     <Files>
-      <File FileName="TimePerson/Program.cs" Line="16" Column="1" />
-      <File FileName="TimePerson/Controllers/HomeController.cs" Line="23" Column="76" />
-      <File FileName="TimePerson/Views/Home/Results.cshtml" />
-      <File FileName="TimePerson/wwwroot/style/style.css" />
-      <File FileName="TimePerson/Views/Home/Index.cshtml" />
+      <File FileName="TimePerson/Controllers/HomeController.cs" Line="14" Column="8" />
+      <File FileName="TimePerson/Startup.cs" />
+      <File FileName="TimePerson/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TimePerson" expanded="True">
             <Node name="TimePerson" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True">
                 <Node name="HomeController.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="PublishProfiles" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="style" expanded="True" />
-              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -1,5 +1,4 @@
 # ***Time Magazine Lists***
-------------------------------
 ##### *Author: Teddy Damian*
 
 ------------------------------
@@ -25,15 +24,11 @@ Double click on the ```TimePerson``` directory.
 Then select and open ```TimePerson.sln```
 
 ## Website: https://timeperson.azurewebsites.net/
-
 ------------------------------
 
-## Visuals
-***[Add screenshots of your application in action]***
-
 ##### Web Visual
-![App start up]()
-
+![Web start up](https://github.com/teddydamian/TimePerson/blob/master/assets/Startup.png)
+![Web result](https://github.com/teddydamian/TimePerson/blob/master/assets/Result.png)
 
 
 ------------------------------

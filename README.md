@@ -1,7 +1,5 @@
 # ***Time Magazine Lists***
 ------------------------------
-
-# Time Magazine List
 ##### *Author: Teddy Damian*
 
 ------------------------------

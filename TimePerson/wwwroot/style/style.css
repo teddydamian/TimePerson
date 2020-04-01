@@ -1,0 +1,41 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
+table {
+    border:dashed;
+    border-color:black;
+    width: 1200px;
+}
+th {
+    font-size: 30px;
+    border: dashed;
+    border-color: black;
+}
+
+td {
+    text-align: center;
+    border-left: dashed;
+    border-right: dashed;
+
+}
+
+form {
+    border: dashed;
+    border-color: black;
+    margin: 0 auto;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width:300px;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+}
+
+

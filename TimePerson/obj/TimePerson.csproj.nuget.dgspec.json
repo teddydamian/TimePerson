@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/teddydamian/Desktop/codefellow/code401ASP.NET/TimePerson/TimePerson/TimePerson.csproj": {}
+  },
+  "projects": {
+    "/Users/teddydamian/Desktop/codefellow/code401ASP.NET/TimePerson/TimePerson/TimePerson.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/teddydamian/Desktop/codefellow/code401ASP.NET/TimePerson/TimePerson/TimePerson.csproj",
+        "projectName": "TimePerson",
+        "projectPath": "/Users/teddydamian/Desktop/codefellow/code401ASP.NET/TimePerson/TimePerson/TimePerson.csproj",
+        "packagesPath": "/Users/teddydamian/.nuget/packages/",
+        "outputPath": "/Users/teddydamian/Desktop/codefellow/code401ASP.NET/TimePerson/TimePerson/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/teddydamian/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

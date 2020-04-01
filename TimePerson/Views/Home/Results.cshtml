@@ -1,0 +1,34 @@
+﻿
+@model List<TimePerson.Models.TimePeople>
+    <head>
+     
+        <link rel="stylesheet" href="~/style/style.css" type="text/css" />
+
+    </head>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Honor</th>
+            <th>Year</th>
+            <th>Country</th>
+            <th>BirthYear</th>
+            <th>DeathYear</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Context</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Honor</td>
+                <td>@item.Year</td>
+                <td>@item.Country</td>
+                <td>@item.BirthYear</td>
+                <td>@item.DeathYear</td>
+                <td>@item.Title</td>
+                <td>@item.Category</td>
+                <td>@item.Context</td>
+            </tr>
+        }
+    </table>
